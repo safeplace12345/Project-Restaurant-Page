@@ -1,0 +1,43 @@
+nav{
+    a{
+        color: orangered;
+    }
+        a:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            transition: transform .4s ease-in-out;
+        }
+}
+footer{
+    color: orangered;
+}
+*{
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+body{
+height: 100vh;
+max-width: 100vw;
+padding: 0;
+display: grid;
+grid-template-rows: 1fr 6fr 1fr;
+}
+#menu-page{
+    overflow-y: scroll;
+}
+.home{
+    background-image: url("/partials/home\ Assets/visualsofdana-p1dTApnbTnI-unsplash.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: orangered;
+    h3:hover{
+        transform: scale(1.04);
+    }
+    h3{
+        transition: transform .4s ease-in-out;
+    }
+
+}
