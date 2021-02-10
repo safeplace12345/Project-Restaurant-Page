@@ -5,6 +5,7 @@
 }
 const autoLoad = (element, hash, fn) => {
     element.innerHTML = '';
+    console.log(window.document.location.hash)
     if (window.document.location.hash === `#${hash}`)
         {return fn(element);
         }
